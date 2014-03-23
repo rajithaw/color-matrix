@@ -435,9 +435,9 @@ namespace Rtw
         #region Operators
 
         /// <summary>
-        /// Implicit cast operator from an RtwColorMatrix to the .NET color matrix
+        /// Implicit cast operator from an Rtw.ColorMatrix to the .NET color matrix
         /// </summary>
-        /// <param name="clrmtx">An RtwColorMatrix instance</param>
+        /// <param name="clrmtx">An Rtw.ColorMatrix instance</param>
         /// <returns>A .NET color matrix instance</returns>
         public static implicit operator DotNet.ColorMatrix(Rtw.ColorMatrix dcmtx)
 		{
@@ -455,10 +455,10 @@ namespace Rtw
 		}
 
         /// <summary>
-        /// Implicit cast operator from a .NET color matrix to the RtwColorMatrix
+        /// Implicit cast operator from a .NET color matrix to the Rtw.ColorMatrix
         /// </summary>
         /// <param name="clrmtx">The .NET color matrix instance</param>
-        /// <returns>An RtwColorMatrix instance</returns>
+        /// <returns>An Rtw.ColorMatrix instance</returns>
         public static implicit operator Rtw.ColorMatrix(DotNet.ColorMatrix clrmtx)
 		{
             Rtw.ColorMatrix dcmtx = new Rtw.ColorMatrix(clrmtx);

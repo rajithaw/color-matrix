@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMatrix", "Rtw.ColorMatrix\ColorMatrix.csproj", "{9DCD17DE-6557-4A27-8B4C-5330CF5A4A9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMatrix", "ColorMatrix\ColorMatrix.csproj", "{9DCD17DE-6557-4A27-8B4C-5330CF5A4A9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMatrixDemo", "ColorMatrixDemoApp\ColorMatrixDemo.csproj", "{BAD4621A-2F05-470D-9F85-569E203A12F4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMatrixDemo", "ColorMatrixDemo\ColorMatrixDemo.csproj", "{BAD4621A-2F05-470D-9F85-569E203A12F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

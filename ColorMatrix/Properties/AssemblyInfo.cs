@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ColorMatrix")]
 [assembly: AssemblyDescription("General purpose color matrix class")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Rajitha Wimalasooriya")]
 [assembly: AssemblyProduct("ColorMatrix")]
 [assembly: AssemblyCopyright("Rajitha Wimalasooriya")]
 [assembly: AssemblyTrademark("")]

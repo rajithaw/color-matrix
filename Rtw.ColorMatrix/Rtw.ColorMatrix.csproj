@@ -80,9 +80,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Rtw.Matrix, Version=0.8.5195.40939, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\Lib\Rtw.Matrix.dll</HintPath>
+    <Reference Include="Matrix">
+      <HintPath>..\packages\Matrix.NET.0.8.0-CI00002\lib\net45\Matrix.dll</HintPath>
     </Reference>
     <Reference Include="System">
       <Name>System</Name>
@@ -105,7 +104,9 @@
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>

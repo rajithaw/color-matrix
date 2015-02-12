@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Rtw.ColorMatrix")]
+[assembly: AssemblyTitle("ColorMatrix")]
 [assembly: AssemblyDescription("General purpose color matrix class")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Rtw.ColorMatrix")]
+[assembly: AssemblyProduct("ColorMatrix")]
 [assembly: AssemblyCopyright("Rajitha Wimalasooriya")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

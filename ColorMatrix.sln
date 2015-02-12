@@ -1,14 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rtw.ColorMatrix", "Rtw.ColorMatrix\Rtw.ColorMatrix.csproj", "{9DCD17DE-6557-4A27-8B4C-5330CF5A4A9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMatrix", "Rtw.ColorMatrix\ColorMatrix.csproj", "{9DCD17DE-6557-4A27-8B4C-5330CF5A4A9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMatrixDemoApp", "ColorMatrixDemoApp\ColorMatrixDemoApp.csproj", "{BAD4621A-2F05-470D-9F85-569E203A12F4}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{6C0E6299-E146-4940-AD20-49A348194AD2}"
-	ProjectSection(SolutionItems) = preProject
-		Lib\Rtw.Matrix.dll = Lib\Rtw.Matrix.dll
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorMatrixDemo", "ColorMatrixDemoApp\ColorMatrixDemo.csproj", "{BAD4621A-2F05-470D-9F85-569E203A12F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

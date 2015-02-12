@@ -5,9 +5,8 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 using System.Drawing.Imaging;
-using Rtw;
 
-namespace ColorMatrixDemoApp
+namespace ColorMatrixDemo
 {
 	/// <summary>
 	/// Summary description for Form1.
@@ -117,7 +116,7 @@ namespace ColorMatrixDemoApp
 		private void pnlCanvas_Paint(object sender, System.Windows.Forms.PaintEventArgs e)
 		{
             // Create the color matrix and set the appropriate values
-			Rtw.ColorMatrix clrMtx = new Rtw.ColorMatrix();
+			ColorMatrix clrMtx = new ColorMatrix();
 			clrMtx.SetSaturation(sat);
 			clrMtx.RotateHue(hue);
 			clrMtx.ScaleValue(val);

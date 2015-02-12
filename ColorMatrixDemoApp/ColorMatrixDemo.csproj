@@ -4,22 +4,22 @@
     <ProjectType>Local</ProjectType>
     <ProductVersion>8.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9DCD17DE-6557-4A27-8B4C-5330CF5A4A9E}</ProjectGuid>
+    <ProjectGuid>{BAD4621A-2F05-470D-9F85-569E203A12F4}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ApplicationIcon>
     </ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>Rtw.ColorMatrix</AssemblyName>
+    <AssemblyName>ColorMatrixDemo</AssemblyName>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Rtw.ColorMatrix</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ColorMatrixDemo</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <StartupObject>
     </StartupObject>
@@ -92,20 +92,40 @@
     <Reference Include="System.Drawing">
       <Name>System.Drawing</Name>
     </Reference>
-    <Reference Include="System.Xml">
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.XML">
       <Name>System.XML</Name>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs">
-      <SubType>Code</SubType>
+    <Compile Include="ColorMatrixApp.Designer.cs">
+      <DependentUpon>ColorMatrixApp.cs</DependentUpon>
     </Compile>
-    <Compile Include="ColorMatrix.cs">
-      <SubType>Code</SubType>
+    <Compile Include="DoubleBufferPanel.cs">
+      <SubType>Component</SubType>
     </Compile>
+    <Compile Include="DoubleBufferPanel.Designer.cs">
+      <DependentUpon>DoubleBufferPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ColorMatrixApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Content Include="lilies.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Rtw.ColorMatrix\ColorMatrix.csproj">
+      <Project>{9dcd17de-6557-4a27-8b4c-5330cf5a4a9e}</Project>
+      <Name>ColorMatrix</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
